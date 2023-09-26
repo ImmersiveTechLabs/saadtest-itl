@@ -84,7 +84,7 @@ const BlogDetails = ({ theme }) => {
                         top it up with the latest trending content on social
                         media, which is analyzed by our &nbsp;
                         <b className="extra-title">
-                          <Link href="/Services/Ssm">
+                          <Link href="/Services/Smm">
                             social media marketing
                           </Link>
                         </b>

@@ -82,7 +82,7 @@ const BlogDetails = ({ theme }) => {
                         different way of writing for maximum reach? Our writers
                         certainly know that. With the help of our &nbsp;
                         <b className="extra-title">
-                          <Link href="/Services/Ssm">
+                          <Link href="/Services/Smm">
                             social media marketing team
                           </Link>
                         </b>
