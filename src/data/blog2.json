@@ -1,0 +1,15 @@
+[
+    {
+        "id": 1,
+        "title": "Is Business Services A Good Career Path?",
+        "content": " Learn if business services is a good career path for you or not. Get to know the pros and cons of this sector in terms if your future.",
+        "image": "/img/blog2.jpg",
+        "tags": ["Business Services", "Career Path", "future"],
+        "Link": "/blog/Is-Business-Services-A-Good-Career-Path",
+        "date": {
+            "day": "18",
+            "month": "September"
+        }
+    }
+ 
+]
