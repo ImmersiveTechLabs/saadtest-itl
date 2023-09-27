@@ -46,7 +46,7 @@ const Footer = ({ hideBGCOLOR }) => {
               <ul>
                 <li>
                   <div className="img">
-                    <Link href="/blog-details/blog-details-light">
+                    <Link href="/blog/Is-Business-Services-A-Good-Career-Path/">
                       <a>
                         <img src="/img/blog2.jpg" alt="" />
                       </a>
