@@ -98,7 +98,7 @@ const Footer = ({ hideBGCOLOR }) => {
                 <a href="https://ae.linkedin.com/company/immersivetechlabs"  target="_blank" rel="noreferrer" className="icon">
                   <i className="fab fa-linkedin"></i>
                 </a>
-                <a href="#0">
+                <a href="https://www.youtube.com/channel/UCXj3Tglg6fr3A8vrxYDQNJQ" target="_blank" rel="noreferrer" className="icon">
                   <i className="fab fa-youtube"></i>
                 </a>
               </div>
