@@ -17,10 +17,6 @@ class MyDocument extends Document {
             name="keywords"
             content="HTML5 Template Vie onepage themeforest"
           />
-          <meta
-            name="description"
-            content="Vie - Onepage Multi-Purpose HTML5 Template"
-          />
           <meta name="author" content="" />
           <link rel="shortcut icon" href="/img/favicon.ico" />
           <link

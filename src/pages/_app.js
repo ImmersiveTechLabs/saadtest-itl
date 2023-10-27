@@ -13,6 +13,9 @@ function MyApp({ Component, pageProps }) {
         <link rel="icon" href="/img/favicon.ico" />
         <link rel="icon" href="/favicon.ico" />
         <meta name="description" content="Learn if business services is a good career path for you or not. Get to know the pros and cons of this sector in terms of your future." />
+        <meta name="description" content="Curious to learn how to stay relevant in the field of software development? Learn everything you need to know, in detail." />
+        <meta name="description" content="Anyone may become a digital marketer, but only a few possess the skills to be called a skilled digital marketer. Learn the tips to be better at digital marketing." />
+
          </Head>
       {/* <LoadingScreen /> */}
       {/* <Cursor /> */}
