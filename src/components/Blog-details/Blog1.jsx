@@ -1,11 +1,17 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
+import PageHeader from "../../components/Page-header/page-header";
 import Link from "next/link";
 import { Formik, Form, Field } from "formik";
 import { Link as ScrollLink } from "react-scroll";
 
 const BlogDetails = ({ theme }) => {
   return (
+    <>
+    <PageHeader
+    title="Is Business Services A Good Career Path"
+    paragraph="Learn if business services is a good career path for you or not. Get to know the pros and cons of this sector in terms if your future."
+  />
     <section className="blog-pg single section-padding pt-0">
       <div className="container">
         <div className="row justify-content-center">
@@ -55,10 +61,14 @@ const BlogDetails = ({ theme }) => {
                         As per the US Bureau Of Labor Statistics, employment in
                         the business services sector is meant to grow by 11% by
                         the year 2028.
-                        <p className="quotes text-center">
+                        {/* <p className="quotes text-center">
                           “Stats don&rsquo;t lie” ~ Shakira probably if she was
                           a data analyst.
-                        </p>
+                        </p> */}
+
+                       <img src="/img/blog1in.jpg" alt="" />
+
+
                         This means more jobs, opportunities, and a better state
                         of mind if one opts for this sector. This growth is
                         self-explanatory if you think about it. With time, more
@@ -231,6 +241,7 @@ const BlogDetails = ({ theme }) => {
         </div>
       </div>
     </section>
+    </>
   );
 };
 

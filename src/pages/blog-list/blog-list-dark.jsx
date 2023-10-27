@@ -1,5 +1,5 @@
 import React from "react";
-import blog2Data from "../../data/blog2.json";
+import blog2Data from "../../data/BlogList.json";
 import DarkTheme from "../../layouts/Dark";
 import Navbar from "../../components/Navbar/navbar";
 import BlogListed from "../../components/Blog-list/blog-list";
@@ -9,7 +9,6 @@ import Footer from "../../components/Footer/footer";
 const BlogListDark = () => {
       const navbarRef = React.useRef(null);
       const logoRef = React.useRef(null);
-
       React.useEffect(() => {
         var navbar = navbarRef.current,
           logo = logoRef.current;
@@ -38,11 +37,10 @@ const BlogListDark = () => {
       <PageHeader
         className="sub-bg"
         title="Our Blogs."
-        // paragraph="All the most current news and events of our creative team."
       />
       <BlogListed blogs={blog2Data} />
       <Footer />
-    </DarkTheme>
+      </DarkTheme>
   );
 };
 
