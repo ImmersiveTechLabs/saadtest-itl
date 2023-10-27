@@ -16,6 +16,7 @@ function MyApp({ Component, pageProps }) {
         <meta name="description" content="Curious to learn how to stay relevant in the field of software development? Learn everything you need to know, in detail." />
         <meta name="description" content="Anyone may become a digital marketer, but only a few possess the skills to be called a skilled digital marketer. Learn the tips to be better at digital marketing." />
         <meta name="description" content="Logo design is important for your brand. In thisblog, we will explore in detail the elements needed to craft a modern logo design." />
+        <meta name="description" content="Logo design is important for your brand.  In this blog, we will explore in detail the elements needed to craft a modern logo design."/>
          </Head>
       {/* <LoadingScreen /> */}
       {/* <Cursor /> */}
