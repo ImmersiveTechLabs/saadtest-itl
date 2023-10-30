@@ -34,7 +34,19 @@
                 "day": "10",
                 "month": "October"
             }
-        }
+        },
+{
+    "id": 1,
+    "title": "How to Craft a Modern Logo Design",
+    "content": "Logo design is important for your brand.  In this blog, we will explore in detail the elements needed to craft a modern logo design.",
+    "image": "/img/blog5.jpg",
+    "tags": ["Logo Design", "Design"],
+    "Link": "/blog/How-to-Craft-a-Modern-Logo-Design",
+    "date": {
+        "day": "18",
+        "month": "October"
+    }
+}
     
  
 ]

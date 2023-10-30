@@ -29,7 +29,7 @@ const BlogDetails = ({ theme }) => {
          },
          {
           type: "img",
-          content: "/img/blog2in.jpg",
+          content: "/img/blog3in.jpg",
          },
          {
           type: "h5",
@@ -205,7 +205,7 @@ const BlogDetails = ({ theme }) => {
            case 'p':
             return <p className="mb-4" key={index}>{item.content}</p>;
            case 'img':
-                return  <div className="img"><img src="/img/blog3in.jpg" alt="" /></div>;
+            return  <div className="img"key={index}><img src={item.content} alt={item.type}   /></div>;
             default:
             return null;
         }

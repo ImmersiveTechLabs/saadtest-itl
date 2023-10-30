@@ -6,6 +6,7 @@ import Navbar from "../../components/Navbar/navbar";
 import BlogDetails1 from "../../components/Blog-details/Blog1.jsx";
 import BlogDetails2 from "../../components/Blog-details/Blog2.jsx";
 import BlogDetails3 from "../../components/Blog-details/Blog3.jsx";
+import BlogDetails4 from "../../components/Blog-details/Blog4.jsx";
 import Footer from "../../components/Footer/footer";
 import BlogList from "../../pages/blog-list/blog-list-dark";
  
@@ -44,7 +45,9 @@ const BlogDetailsDark = () => {
                 <BlogDetails2 data={blog3Data} />
             ) : slug === "How-to-Stay-Relevant-in-the-Field-of-Software-Development" ? (
                 <BlogDetails3 data={blog3Data} />
-            ) : (
+            ) : slug === "How-to-Craft-a-Modern-Logo-Design" ? (
+                <BlogDetails4 data={blog3Data} />
+            ) :           (
                 <BlogList />
             )}
 
