@@ -18,7 +18,7 @@ const BlogDetails = ({ theme }) => {
           <div className="col-lg-11">
             <div className="post">
               <div className="img">
-                <img src="/img/blog2in.jpg" alt="" />
+                <img src="/img/blog1.jpg" alt="" />
               </div>
               <div className="content pt-60">
                 <div className="row justify-content-center">

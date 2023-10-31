@@ -9,7 +9,7 @@ const BlogDetails = ({ theme }) => {
   const Data={
     title: "Tips you need to be better at digital marketing",
     metaTitle: "Anyone may become a digital marketer, but only a few possess the skills to be called a skilled digital marketer. Learn the tips to be better at digital marketing",
-    Mainimg: "/img/blog3.jpg",
+    Mainimg: "/img/blog2.jpg",
     "blogContent": [    
         
          {
@@ -36,7 +36,7 @@ const BlogDetails = ({ theme }) => {
          },
          {
           type: "img",
-          content: "/img/blog3innn.jpg",
+          content: "/img/blog2in.jpg",
          },
          {
           type: "p",
@@ -83,7 +83,7 @@ const BlogDetails = ({ theme }) => {
          },
          {
           type: "img",
-          content: "/img/blog2inn.jpg",
+          content: "/img/blog2innn.jpg",
          },
          {
           type: "p",

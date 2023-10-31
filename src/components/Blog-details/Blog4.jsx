@@ -9,7 +9,7 @@ const BlogDetails = ({ theme }) => {
   const Data={
     title: "How to Craft a Modern Logo Design",
     metaTitle: " Logo design is important for your brand.  In this blog, we will explore in detail the elements needed to craft a modern logo design.",
-    Mainimg: "/img/blog5.jpg",
+    Mainimg: "/img/blog4.jpg",
     "blogContent": [    
         
          {

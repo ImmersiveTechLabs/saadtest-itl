@@ -9,7 +9,7 @@ const BlogDetails = ({ theme }) => {
   const Data={
     title: "How to Stay Relevant in Field of Software Development",
     metaTitle: "Curious to learn how to stay relevant in the field of software development? Learn everything you need to know, in detail.",
-    Mainimg: "/img/blog4.jpg",
+    Mainimg: "/img/blog3.jpg",
     "blogContent": [    
         
          {
