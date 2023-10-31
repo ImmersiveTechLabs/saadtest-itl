@@ -10,18 +10,18 @@ const BlogDetails = ({ theme }) => {
 <>
     <PageHeader title="Abstract Graphic Design:  Everything You Need To Know" paragraph="Abstract graphic design is an interesting realm within the broader domain of visual arts. This blog aims to educate about Abstract Graphic Design. " />
 
-    <section classNameName="blog-pg single section-padding pt-0">
-      <div classNameName="container">
-        <div classNameName="row justify-content-center">
-          <div classNameName="col-lg-11">
-            <div classNameName="post">
-              <div classNameName="img">
+    <section className="blog-pg single section-padding pt-0">
+      <div className="container">
+        <div className="row justify-content-center">
+          <div className="col-lg-11">
+            <div className="post">
+              <div className="img">
                 <img src="/img/blog5.jpg" alt="" />
               </div>
-              <div classNameName="content pt-60">
-                <div classNameName="row justify-content-center">
-                  <div classNameName="col-lg-10">
-                    <div classNameName="cont">
+              <div className="content pt-60">
+                <div className="row justify-content-center">
+                  <div className="col-lg-10">
+                    <div className="cont">
                     <p className="c3"><span className="c0">In today&#39;s dynamic business world, a modern logo design isn&#39;t just a visual
             mark; it&#39;s the very essence of your brand. It might sound like an exaggeration but a logo design can be
             the difference between blending into the background and standing out in the crowd. </span></p>
