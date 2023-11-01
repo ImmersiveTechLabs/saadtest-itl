@@ -66,7 +66,7 @@ const BlogDetails = ({ theme }) => {
                           a data analyst.
                         </p> */}
 
-                       <img src="/img/blog1in.jpg" alt="" />
+                       <img src="/img/blog1in.png" alt="" />
 
 
                         This means more jobs, opportunities, and a better state
