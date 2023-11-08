@@ -3,7 +3,7 @@ import React, { useEffect, useRef } from "react";
 import DarkTheme from "../../layouts/Dark";
 import Navbar from "../../components/Navbar/navbar";
 import Footer from "../../components/Footer/footer";
-import BlogDetails from '../../components/Blog-details/BlogDetails';
+import BlogDetails from '../../components/Blog-details/BlogDetails.jsx';
 import blogPosts from '../../data/blogs.json';
 import PageHeader from "../../components/Page-header/page-header";
 
