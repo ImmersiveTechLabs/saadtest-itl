@@ -26,7 +26,7 @@ const BlogList = ({ blogs }) => {
                       <div className="cont">
                         <div>
                           <div className="info">
-                            <Link href={blogItem.Link}>
+                            <Link href={blogItem.link}>
                               <a className="date">
                                 <span>
                                   <i>{blogItem.date.day}</i>
@@ -36,7 +36,7 @@ const BlogList = ({ blogs }) => {
                             </Link>
                             <span>/</span>
                             {blogItem.tags.map((tag, index) => (
-                              <Link key={index} href={blogItem.Link}>
+                              <Link key={index} href={blogItem.link}>
                                 <a className="tag">
                                   <span>{tag}</span>
                                 </a>
@@ -44,15 +44,15 @@ const BlogList = ({ blogs }) => {
                             ))}
                           </div>
                           <h5>
-                            <Link href={blogItem.Link}>
+                            <Link href={blogItem.link}>
                               <a>{blogItem.title}</a>
                             </Link>
                           </h5>
                           <p className="mt-10">
-                            {blogItem.content.substr(0, 146) + '...'}
+                            {blogItem.subtitle.substr(0, 146) + '...'}
                           </p>
                           <div className="btn-more mt-30">
-                            <Link href={blogItem.Link}>
+                            <Link href={blogItem.link}>
                               <a className="simple-btn">Read More</a>
                             </Link>
                           </div>

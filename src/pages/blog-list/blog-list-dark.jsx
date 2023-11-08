@@ -1,5 +1,5 @@
 import React from "react";
-import blog2Data from "../../data/BlogList.json";
+import blog2Data from "../../data/blogs.json";
 import DarkTheme from "../../layouts/Dark";
 import Navbar from "../../components/Navbar/navbar";
 import BlogListed from "../../components/Blog-list/blog-list";
