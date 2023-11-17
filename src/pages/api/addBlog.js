@@ -1,6 +1,7 @@
 // pages/api/addBlog.js
 import fs from 'fs';
 import path from 'path';
+import { title } from 'process';
 
 export default function handler(req, res) {
   if (req.method === 'POST') {
@@ -20,9 +21,14 @@ export default function handler(req, res) {
 
       const newId = fileData.length > 0 ? fileData[fileData.length - 1].id + 1 : 1;
 
+      // convert title to slug
+      const link = req.body.title.toLowerCase().replace(/ /g, '-').replace(/[^\w-]+/g, '');
+      
+
       const newBlog = {
         id: newId,
         ...req.body,
+        link,
         date: {
           day: new Date().getDate(),
           month: new Date().toLocaleString('default', { month: 'long' })
