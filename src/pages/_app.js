@@ -4,11 +4,20 @@ import Script from "next/script";
 import ScrollToTop from "../components/scrollToTop";
 
 import "../styles/main.scss";
+import Data from "../data/blogs.json";
+import Data2 from "../data/blogs.json";
 
 function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
+      {
+          Data2.map((blog, index) => {
+            return (
+              <meta key={index} name="title" content={blog.title} />
+            )
+          })
+        }
         <title>ImmersiveTechlab Marketing Agency </title>
         <link rel="icon" href="/img/favicon.ico" />
         <link rel="icon" href="/favicon.ico" />
@@ -17,6 +26,13 @@ function MyApp({ Component, pageProps }) {
         <meta name="description" content="Anyone may become a digital marketer, but only a few possess the skills to be called a skilled digital marketer. Learn the tips to be better at digital marketing." />
         <meta name="description" content="Logo design is important for your brand. In thisblog, we will explore in detail the elements needed to craft a modern logo design." />
         <meta name="description" content="Logo design is important for your brand.  In this blog, we will explore in detail the elements needed to craft a modern logo design."/>
+        {
+          Data.map((blog, index) => {
+            return (
+              <meta key={index} name="description" content={blog.subtitle} />
+            )
+          })
+        }
          </Head>
       {/* <LoadingScreen /> */}
       {/* <Cursor /> */}

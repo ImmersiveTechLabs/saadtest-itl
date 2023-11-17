@@ -46,23 +46,23 @@ const Footer = ({ hideBGCOLOR }) => {
               <ul>
                 <li>
                   <div className="img">
-                    <Link href="/blog/Is-Business-Services-A-Good-Career-Path/">
+                    <Link href="/blog-list/business-services-a-good-career-path">
                       <a>
-                        <img src="/img/blog2.jpg" alt="" />
+                        <img src="/img/blog1.jpg" alt="" />
                       </a>
                     </Link>
                   </div>
                   <div className="sm-post">
-                    <Link href="/blog/Is-Business-Services-A-Good-Career-Path/">
+                    <Link href="/blog-list/business-services-a-good-career-path">
                       <a>
                         <p>
                         Learn if business services is a good career path...
                         </p>
                       </a>
                     </Link>
-                    <Link href="/blog/Is-Business-Services-A-Good-Career-Path/">
+                    <Link href="/blog-list/business-services-a-good-career-path">
                       <a>
-                        <span className="date">18 sep 2023</span>
+                        <span className="date">17 Nov 2023</span>
                       </a>
                     </Link>
                   </div>

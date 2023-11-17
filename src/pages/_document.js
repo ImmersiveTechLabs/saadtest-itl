@@ -13,10 +13,6 @@ class MyDocument extends Document {
       <Html lang="en">
         <Head>
           <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
-          <meta
-            name="keywords"
-            content="HTML5 Template Vie onepage themeforest"
-          />
           <meta name="author" content="" />
           <link rel="shortcut icon" href="/img/favicon.ico" />
           <link

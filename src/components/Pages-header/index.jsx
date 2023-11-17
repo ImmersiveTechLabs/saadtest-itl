@@ -9,7 +9,7 @@ const PagesHeader = () => {
           <div className="col-lg-14">
             <div className="cont mt-100 mb-50 text-center">
               <h1 className="color-font fw-700">
-              Equipped with passionate, skillful, and creative minds, Immersive Tech aims to provide excellent digital services and solutions to its clients. 
+              Equipped with passionate, skillful, and creative minds, Immersive Techlab aims to provide excellent digital services and solutions to its clients. 
               </h1>
             </div>
           </div>
