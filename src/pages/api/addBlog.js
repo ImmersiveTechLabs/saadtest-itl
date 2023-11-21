@@ -1,14 +1,13 @@
 // pages/api/addBlog.js
 import fs from 'fs';
 import path from 'path';
-import { title } from 'process';
 
 export default function handler(req, res) {
   if (req.method === 'POST') {
     try {
       console.log('Current working directory:', process.cwd());
 
-      const filePath = path.join(process.cwd(),'src', 'data', 'blogs.json');
+      const filePath = path.join(process.cwd(), 'src', 'data', 'blogs.json');
       console.log('Attempting to read file at:', filePath);
 
       if (!fs.existsSync(filePath)) {
@@ -23,11 +22,14 @@ export default function handler(req, res) {
 
       // convert title to slug
       const link = req.body.title.toLowerCase().replace(/ /g, '-').replace(/[^\w-]+/g, '');
-      
+
+      // Modify content by removing <p class="c1"><span class="c3"></span></p>
+      const modifiedContent = req.body.content.replace(/<p class="c1"><span class="c3"><\/span><\/p>/g, '');
 
       const newBlog = {
         id: newId,
         ...req.body,
+        content: modifiedContent, // Use the modified content
         link,
         date: {
           day: new Date().getDate(),
