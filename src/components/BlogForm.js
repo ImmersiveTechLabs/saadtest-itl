@@ -11,6 +11,7 @@ export default function BlogForm({ onFormSubmit }) {
         content: event.target.content.value,
         image: event.target.image.value,
         tags: event.target.tags.value.split(','), // Assuming tags are comma-separated
+        innerImages: event.target.innerImages.value.split(',').map(link => link.trim())
       };
   
       onFormSubmit(formData);
@@ -23,6 +24,7 @@ export default function BlogForm({ onFormSubmit }) {
         <textarea name="content" placeholder="Content" required />
         <input type="text" name="image" placeholder="Image URL" required />
         <input type="text" name="tags" placeholder="Tags,Separated,By,Comma" required />
+        <input type="text" name="innerImages" placeholder="innerImages" required />
         <button type="submit">Submit</button>
       </form>
     );

@@ -6,6 +6,7 @@ import Footer from "../../components/Footer/footer";
 import BlogDetails from '../../components/Blog-details/BlogDetails.jsx';
 import blogPosts from '../../data/blogs.json';
 import PageHeader from "../../components/Page-header/page-header";
+import BlogList from "./blog-list-dark.jsx";
 
 
 const BlogPost = () => {
@@ -30,7 +31,7 @@ const BlogPost = () => {
   }, []);
 
   if (!post) {
-    return <p>Loading...</p>; // or a custom loading component
+    return  <BlogList /> // or a custom loading component
   }
 
   return (

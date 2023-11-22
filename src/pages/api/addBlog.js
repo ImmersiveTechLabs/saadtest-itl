@@ -23,13 +23,18 @@ export default function handler(req, res) {
       // convert title to slug
       const link = req.body.title.toLowerCase().replace(/ /g, '-').replace(/[^\w-]+/g, '');
 
-      // Modify content by removing <p class="c1"><span class="c3"></span></p>
-      const modifiedContent = req.body.content.replace(/<p class="c1"><span class="c3"><\/span><\/p>/g, '');
+      // i want content replace <p class="c0"><span class="c5"></span></p> with blank space contnet come from req body
+      var modifiedContent = req.body.content.replace(/<p class="c0"><span class="c5"><\/span><\/p>/g, '');
+
+      
 
       const newBlog = {
         id: newId,
-        ...req.body,
-        content: modifiedContent, // Use the modified content
+        title: req.body.title,
+        subtitle: req.body.subtitle,
+        content: modifiedContent,
+        image: req.body.image,
+        tags: req.body.tags,
         link,
         date: {
           day: new Date().getDate(),
