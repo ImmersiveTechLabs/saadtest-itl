@@ -80,7 +80,7 @@ const Services3 = () => {
               </span>
               <h5>SEO Link-Building</h5>
               <p>
-              Our quality SEO and link-building experts will convert your sites credibility and enhance your brand’s identity. With us, your website goes to the top of Seach Engine rankings.
+              Our quality SEO and link-building experts will convert your sites credibility and enhance your brand’s identity. With us, your website goes to the top of Search Engine rankings.
               </p>
               <Link href="/Services/Seo/">
                 <a className="more-stroke">
