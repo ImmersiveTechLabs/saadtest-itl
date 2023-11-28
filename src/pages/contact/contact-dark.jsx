@@ -39,8 +39,7 @@ const Contact = () => {
       <div className="main-content">
         <ContactForm />
         <div className="map" id="ieatmaps">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3610.515617864666!2d55.27223067600399!3d25.18582843215996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f68321bb1bcef%3A0xa576c00b5ae4417b!2sWestburry%20Business%20Tower!5e0!3m2!1sen!2s!4v1694012834593!5m2!1sen!2s"  loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1861056.6171414708!2d52.62927674673854!3d24.35080457627605!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f68321bb1bcef%3A0xa576c00b5ae4417b!2sWestburry%20Business%20Tower!5e0!3m2!1sen!2sus!4v1701179822241!5m2!1sen!2sus"  loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>        </div>
 
         <Footer hideBGCOLOR />
       </div>

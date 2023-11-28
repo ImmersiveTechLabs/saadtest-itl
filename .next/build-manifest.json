@@ -25,20 +25,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/blog/[slug]": [
+    "/contact/contact-dark": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/blog/[slug].js"
-    ],
-    "/blog/blog-list-dark": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/blog/blog-list-dark.js"
-    ],
-    "/create-post": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/create-post.js"
+      "static/chunks/pages/contact/contact-dark.js"
     ]
   },
   "ampFirstPages": []
