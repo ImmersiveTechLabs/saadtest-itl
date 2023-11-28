@@ -24,7 +24,10 @@ function MyApp({ Component, pageProps }) {
       {
           Data.map((blog, index) => {
             return (
+              <>
+              <meta key={index} name="title" content={blog.title} />
               <meta key={index} name="description" content={blog.subtitle} />
+              </>
             )
           })
         }
